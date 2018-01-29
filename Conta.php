@@ -3,7 +3,7 @@
 class Conta {
   public $numero;
   public $saldo; // atributo de objeto
-  static public $cont=0; // atributo de classe
+  static public $cont = 0; // atributo de classe
 
   private function __construct()    // private nao conseguimos criar o objeto por new
   {
