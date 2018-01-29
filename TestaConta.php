@@ -15,6 +15,12 @@ $conta2->saldo = 2000;
 
 echo "Contador: " . Conta::$cont . "   Numero: " . $conta2->numero . "   Saldo: " . $conta2->saldo . PHP_EOL;
 
+echo "Mostra contador e zera: " . PHP_EOL;
+
+Conta::zeraContador();
+
+echo PHP_EOL . "Atual contador: " . Conta::$cont . PHP_EOL;
+
 // Fabrica de Objetos: tem classes que nao precisamos fazer new para criar objeto.
 // Temos método que passamos parâmetros e o objeto é criado.
 // Exemplo: Carbon::createFromDate(1990, 10, 3) já chamamos o método passando

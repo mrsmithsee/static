@@ -18,4 +18,10 @@ class Conta {
   {
     return new Conta();
   }
+
+  static function zeraContador()
+  {
+    echo "Contador function zera: " . self::$cont . PHP_EOL;
+    self::$cont = 0;
+  }
 }
