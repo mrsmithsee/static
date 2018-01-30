@@ -19,6 +19,7 @@ class Conta {
     return new Conta();
   }
 
+// metodo de classe, nao funcionaria usar $this porque se refere a um objeto
   static function zeraContador()
   {
     echo "Contador function zera: " . self::$cont . PHP_EOL;

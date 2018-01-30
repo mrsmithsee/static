@@ -17,15 +17,10 @@ class Conta
     // $this->numero = $x;
   }
 
-  function deposita(float $valor)
-  {
-    $this->saldo += $valor;
-  }
-
-  // como a funcao não é da classe o $this se refere ao objeto que chamou a funcao
+    // como a funcao não é da classe o $this se refere ao objeto que chamou a funcao
   function mostraDados()
   {
-    echo "Mostra conta $this->numero tem:" . PHP_EOL;
+    echo "Mostra conta:" . PHP_EOL;
     echo "Saldo: $this->saldo " . PHP_EOL;
   }
 }
